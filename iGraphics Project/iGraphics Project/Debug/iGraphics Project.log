@@ -1,4 +1,4 @@
-﻿Build started 9/25/2021 2:50:36 PM.
+﻿Build started 9/25/2021 2:55:19 PM.
      1>Project "F:\1_2_games\practice\iGraphics Project\iGraphics Project\iGraphics Project.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\iGraphics Project.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -14,4 +14,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.06
+Time Elapsed 00:00:00.09

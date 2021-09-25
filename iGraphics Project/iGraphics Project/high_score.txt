@@ -19,3 +19,5 @@ name tanvir
 point 12
 name adil
 point 8
+Name parvez
+Point 3

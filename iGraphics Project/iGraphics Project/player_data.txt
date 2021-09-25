@@ -20,3 +20,5 @@ name adil
 point 8
 Name parvez
 Point 3
+Name asd
+Point 3
