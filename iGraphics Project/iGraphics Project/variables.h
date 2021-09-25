@@ -25,14 +25,6 @@ int rect_x1, rect_y1;
 int rect_x, rect_y;
 int rect_dx, rect_dy;
 
-//int r=253,g=210,b=191;
-int r1=255, g1=107, b1=107;
-int r2=69,  g2=82,  b2=108;
-int r3=255, g3=107, b3=107;
-int r4=69,  g4=82,  b4=108;
-int r5=255, g5=107, b5=107;
-
-
 
 //! code of parvez starts here
 
@@ -47,7 +39,6 @@ int rect_dy_3=13;
  *=======================================================================================================================**/
 
 int screen_input;
-
 char player_name[100];
 int length;
 

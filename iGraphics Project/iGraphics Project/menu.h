@@ -17,6 +17,9 @@ void rectangle_change(){
 	 if(rect_y1  > 175 || rect_y1 < 0)rect_dy = -rect_dy;
 }
 
+/**================================================================================================
+ *!                                     This functions are related to the hovering function of the menu 
+ *================================================================================================**/
 void menu_hover(int mx,int my)
 {
     int mouse_distance_from_center;
@@ -136,6 +139,10 @@ void menu()																///menu background and buttons
 	iShowImage(0,0,1000,610,menu_picture);
 	
 }
+
+/**================================================================================================
+ *!                                    on hover different text msg will appear
+ *================================================================================================**/
 void goToMenuOptions()													//going to any selected option
 {
 	if(showPlay==true)

@@ -145,7 +145,7 @@ void highest_score_printer(){ //this function will print the highest score in a 
 
    }
 }
-
+// whenever called this function will append the point
 void user_point_appender(int point)
 {
 
@@ -158,6 +158,8 @@ void user_point_appender(int point)
      fprintf(fp,"\nPoint %d",point);
    }
 }
+
+//whenever called this function will append the name passed 
 void user_name_appender()
 {
 
@@ -168,12 +170,10 @@ void user_name_appender()
    else
    {
        fprintf(fp,"\nName %s",details[total_user+1].name);
-      
-   
    }
 }
 
-
+//this will print the highscores int the game window 
 void high_score_shower(){
 
 	//std::sprintf(game_point_char, "%d", game_point);
