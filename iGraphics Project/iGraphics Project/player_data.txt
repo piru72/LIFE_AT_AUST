@@ -19,16 +19,4 @@ point 12
 name adil
 point 8
 Name parvez
-Name adam
-Point 0
-Name parvez
-Point 0
-Point 0
-Name asdasd
-Name parvez
-Name parvez
-Name asdas
-Name parvez
-Name parvez  
-Name p
-Name ppp
+Point 3
