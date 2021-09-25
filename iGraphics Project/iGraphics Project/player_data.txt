@@ -25,3 +25,8 @@ Point 3
 
 Name parvez
 Name parvez
+Name parvez
+Point 3
+Name parvez
+Point 2
+Name mahi
