@@ -47,7 +47,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="merge_throw_move.cpp">
+    <ClCompile Include="Life%40AUST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

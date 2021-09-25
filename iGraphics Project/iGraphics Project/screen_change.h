@@ -42,7 +42,7 @@ void screen_change(int mx,int my)
 			    if( mouse_distance_from_center < 35) exit(0);    
 		    }
 
-            else if( screen >= 2 &&  screen <= 15  && mx >= 21 && mx <= 172 && my >= 553 && my <= 586  )  screen = 1 ;
+            else if( screen >= 2 &&  screen <= 16  && mx >= 21 && mx <= 172 && my >= 553 && my <= 586  )  screen = 1 ;
 
             //else if ( mx >= 379 && mx <= 623 && my >= 343 && my <= 396  && (screen == 3 || screen == 13)) screen = 7;
 
@@ -83,6 +83,7 @@ void screen_change(int mx,int my)
 			iResumeTimer(0);
 			screen = 7 ;
 			} 
+			else if( mx >= 829 && mx <= 923 && my >= 34 && my <= 67 && screen == 16 )  screen = 15 ;
 
 
 }
