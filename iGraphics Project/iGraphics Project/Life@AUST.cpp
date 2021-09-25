@@ -81,7 +81,7 @@ void iDraw()
 		 	iShowImage(0,0,1000,610,screen_highscore);
 		 	high_score_shower();
 	}    
-    if (screen == 3)    iShowImage(0,0,1000,610,screen_play);  // screen ==3 is the value of play screen
+    if (screen == 3)    iShowImage(0,0,1000,610,screen_play); 
     if (screen == 4)    iShowImage(0,0,1000,610,screen_member);
     if (screen == 5)    iShowImage(0,0,1000,610,screen_story);
     if (screen == 6)    iShowImage(0,0,1000,610,screen_control);
