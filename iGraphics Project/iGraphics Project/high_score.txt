@@ -24,6 +24,6 @@ Point 3
 Name asd
 Point 3
 Name parvez
-Point 3
-Name asd
-Point 3
+ 0
+Name parvez
+ 0

@@ -53,6 +53,7 @@ void screen_change(int mx,int my)
 			 *!     This is the functionality of back button going back directly to the joystick screen
 			 *================================================================================================**/
 			else if(  mx >= 21 && mx <= 172 && my >= 553 && my <= 586  && screen ==7 )    screen = 3 ;
+			else if(  mx >= 21 && mx <= 172 && my >= 553 && my <= 586  && screen ==8)    screen = 3 ;
             else if( screen >= 2 &&  screen <= 16  && mx >= 21 && mx <= 172 && my >= 553 && my <= 586  )  screen = 1 ;
 			
 			else if( mx >= 21 && mx <= 172 && my >= 553 && my <= 586  && screen ==3 ) 
@@ -66,7 +67,7 @@ void screen_change(int mx,int my)
 			/**=======================================================================================================================
 			 *!                                                   Play button and resume button
 			 *=======================================================================================================================**/
-            else if ( mx >= 379 && mx <= 623 && my >= 343 && my <= 396  && (screen == 3 || screen == 13)) screen = 7;
+            else if ( mx >= 379 && mx <= 623 && my >= 343 && my <= 396  && (screen == 3 || screen == 13)) screen = 15;
             else if ( mx >= 379 && mx <= 623 && my >= 216 && my <= 270  && (screen == 3 || screen == 13)) screen = 8;
 
 
@@ -97,11 +98,7 @@ void screen_change(int mx,int my)
 			 *!                      Codes below are different each time so are unique
 			 *================================================================================================**/
 
-			else if ( mx >= 379 && mx <= 623 && my >= 343 && my <= 396  && (screen == 3 || screen == 13)) screen = 15;
-
-			else if ( mx >= 797 && mx <= 891 && my >= 542 && my <= 586  && screen == 15) screen  =7;
-
-			//if(mx >= 207 && mx <= 737 && my >= 272 && my <= 338 && mode == 0 && screen == 15 || mode==3 ) mode = 1;
+			else if(mx >= 207 && mx <= 737 && my >= 272 && my <= 338 && mode == 0 && screen == 15 || mode==3 ) mode = 1;
 
 			else if( mx >= 829 && mx <= 923 && my >= 34 && my <= 67 && screen == 16 )  screen = 15 ;
 
