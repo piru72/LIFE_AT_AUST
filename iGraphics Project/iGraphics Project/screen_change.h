@@ -102,7 +102,7 @@ void screen_change(int mx,int my)
 
 			else if( mx >= 829 && mx <= 923 && my >= 34 && my <= 67 && screen == 16 )  screen = 15 ;
 
-			else if( mx >= 829 && mx <= 923 && my >= 34 && my <= 67 && screen == 17 )  screen = 18 ;
+			else if( mx >= 353 && mx <= 597 && my >= 343 && my <= 398 && screen == 17 )  screen = 18 ;
 
 
 
@@ -129,7 +129,7 @@ void screen_change(int mx,int my)
 // screen = 15 means --------- this is the input screen where user will input his name
 // screen = 16 means --------- this means that the game is over 
 // screen = 17 means --------- this means the interval before going to next level game
-// screen = 18 means ---------
+// screen = 18 means --------- this means this is the startting of second level
 // screen = 19 means ---------
 // screen = 20 means ---------
 

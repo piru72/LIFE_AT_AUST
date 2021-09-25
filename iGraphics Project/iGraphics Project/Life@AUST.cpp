@@ -282,7 +282,7 @@ void image_load()
 
 	screen_game_over = iLoadImage("images//screen_game_over.png");
 	screen_go_level_2 = iLoadImage("images//screen_go_level_2.png");
-	screen_level_2 = iLoadImage("images//screenlevel_2.png");
+	screen_level_2 = iLoadImage("images//screen_level_2.png");
 
 
 }
