@@ -113,10 +113,10 @@ void iDraw()
 		}
 	} 
 
-	if (screen == 16 )
-	{
-		iShowImage(0,0,screen_width,screen_height,screen_game_over);
-	}
+	if (screen == 16 ) iShowImage(0,0,screen_width,screen_height,screen_game_over);
+	if (screen == 17 ) iShowImage(0,0,screen_width,screen_height,screen_go_level_2);
+	if (screen == 18 ) iShowImage(0,0,screen_width,screen_height,screen_level_2);
+	
 
 }
 
@@ -169,6 +169,7 @@ void iMouse(int button, int state, int mx, int my)
 		{
 		//place your codes here
         //user_data_appender(game_point);
+		printf("x= %d\ty= %d\t screen = %d\n", mx,my,screen);
 		iPauseTimer(0);
 		}
 		
@@ -279,7 +280,10 @@ void image_load()
 	obstacle_me_1211   = iLoadImage("images//me_1211.png");
 	obstacle_math_1219 = iLoadImage("images//math_1219.png");
 
-	screen_game_over = iLoadImage("images\\screen_game_over.png");
+	screen_game_over = iLoadImage("images//screen_game_over.png");
+	screen_go_level_2 = iLoadImage("images//screen_go_level_2.png");
+	screen_level_2 = iLoadImage("images//screenlevel_2.png");
+
 
 }
 

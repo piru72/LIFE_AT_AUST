@@ -330,7 +330,15 @@ void  ball_throw_command(unsigned char key)
 				if(left_chances == 0 )
 				{	
 					user_point_appender(game_point);
-					screen = 16;
+					if (game_point >= 1)
+					{
+						screen = 17;
+					}
+					else if (game_point == 0 )
+					{
+						screen = 16;
+					}
+					
 					left_chances = 9;
 					game_point = 0;
 				}

@@ -30,3 +30,15 @@ Point 3
 Name parvez
 Point 2
 Name mahi
+Name parv
+Point 2
+Name a 
+Point 1
+Point 1
+Name p
+Name dfd
+Point 0
+Name hum
+Point 7
+Name play
+Point 3

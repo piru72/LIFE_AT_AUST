@@ -5,7 +5,7 @@ int screen_play,screen_highscore,screen_control,screen_member,screen_story;
 
 int screen_member_light,screen_control_light,screen_story_light ,screen_highscore_light,screen_play_light,joystick_light;
 
-int screen_go_level_2;
+int screen_go_level_2,screen_level_2;
 
 int obstacle_bamboo;
 
