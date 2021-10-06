@@ -1,4 +1,4 @@
-# Project Introduction
+## Project Introduction
 Ahsanullah University of Science and Technology
 Department of Computer Science and Engineering
 Year 1, Semester 2
@@ -21,3 +21,10 @@ Ashek Seum
 Lecturer,
 Department of Computer Science and Engineering,
 Ahsanullah University of Science and Technology
+
+## Setup Guidelines
+
+Microsoft Visual Studio 2010
+Version 10.0.40219.1 sp1Rel
+
+Follow the instruction of 1. Guideline to setup the environment 
