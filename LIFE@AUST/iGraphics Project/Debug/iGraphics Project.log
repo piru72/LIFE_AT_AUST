@@ -1,0 +1,17 @@
+﻿Build started 10/6/2021 12:56:32 PM.
+     1>Project "F:\1_2_games\Game_development\LIFE@AUST\iGraphics Project\iGraphics Project.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\LIFE@AUST.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         iGraphics Project.vcxproj -> F:\1_2_games\Game_development\LIFE@AUST\Debug\LIFE@AUST.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\LIFE@AUST.unsuccessfulbuild".
+         Touching "Debug\LIFE@AUST.lastbuildstate".
+     1>Done Building Project "F:\1_2_games\Game_development\LIFE@AUST\iGraphics Project\iGraphics Project.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04
